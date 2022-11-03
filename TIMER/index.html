@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+ <div class="timerContainer">
+  <div class="mainCont">
+   <div class="timeDiv">
+    <input type="text" class="time" id="hrs" value="00">
+   </div>
+   <span>:</span>
+   <div class="timeDiv">
+    <input type="text" class="time" id="min" value="00">
+   </div>
+   <span>:</span>
+   <div class="timeDiv">
+    <input type="text" class="time" id="sec" value="00">
+   </div>
+  </div>
+  <div class="btns">
+   <button class="btn1">start</button>
+   <button onclick="pause()" class="btn2">pause</button>
+   <button onclick="reset()" class="btn3">reset</button>
+  </div>
+ </div>
+
+ <script src="./main.js"></script>
+</body>
+
+</html>
